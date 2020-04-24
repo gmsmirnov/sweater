@@ -5,12 +5,12 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.2.RELEASE</version>
+        <version>2.2.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ru.gsmirnov</groupId>
     <artifactId>sweater</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>sweater</name>
     <description>Twitter's clone</description>
 
@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <artifactId>spring-boot-starter-mustache</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
