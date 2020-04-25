@@ -1,4 +1,4 @@
-package ru.gsmirnov.sweater;
+package ru.gsmirnov.sweater.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,15 +8,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 import ru.gsmirnov.sweater.domain.Message;
 import ru.gsmirnov.sweater.repository.MessageRepository;
 
-import java.util.List;
 import java.util.Map;
 
 @Controller
-public class GreetingController {
+public class MainController {
     private final MessageRepository messageRepository;
 
     @Autowired
-    public GreetingController(MessageRepository messageRepository) {
+    public MainController(MessageRepository messageRepository) {
         this.messageRepository = messageRepository;
     }
 
