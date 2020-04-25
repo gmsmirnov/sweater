@@ -10,7 +10,7 @@
     </parent>
     <groupId>ru.gsmirnov</groupId>
     <artifactId>sweater</artifactId>
-    <version>0.0.5</version>
+    <version>0.0.6</version>
     <name>sweater</name>
     <description>Twitter's clone</description>
 
