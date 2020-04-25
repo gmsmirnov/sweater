@@ -10,7 +10,7 @@
     </parent>
     <groupId>ru.gsmirnov</groupId>
     <artifactId>sweater</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <name>sweater</name>
     <description>Twitter's clone</description>
 
@@ -41,6 +41,10 @@
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
